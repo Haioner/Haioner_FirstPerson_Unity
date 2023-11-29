@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed28e80ded838f4489b43209b571b06, type: 3}
+  m_Name: FootSteps
+  m_EditorClassIdentifier: 
+  groundTypes:
+  - tagName: Grass
+    clips:
+    - {fileID: 8300000, guid: 147dc4e556449564eb704161cc2d86c6, type: 3}
+    - {fileID: 8300000, guid: b52166e3e68c5b54698244b785ec964b, type: 3}
+    - {fileID: 8300000, guid: 893e2df3226c6b943b99562d842aae5f, type: 3}
+  - tagName: Rock
+    clips:
+    - {fileID: 8300000, guid: fcb551c0172d8d0479058b51fb8f3c90, type: 3}
